@@ -1,0 +1,126 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin: 1% 20% 2% 20%;
+}
+
+body {
+    background-color: black;
+    height: 100vh; /* Faz o body ocupar toda a altura da janela do navegador */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.logo img {
+    margin-left: 5px;
+    width: 64px; /* Define a largura da imagem para 64 pixels */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.link_home{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.logo_titulo{
+    font-size: 24px;
+}
+
+.navigation nav ul {
+    list-style: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o padding padrão */
+    display: flex; /* Organiza os itens da lista em linha */
+    justify-content: center; /* Distribui os itens uniformemente */
+    gap: 10%;
+}
+
+.navigation nav a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    padding: 10px; /* Adiciona um pouco de espaço ao redor dos links */
+    color: #e3e3e3; /* Define a cor do texto dos links */
+}
+
+.navigation span{
+    display: block;
+    background-color: rgb(19, 20, 20);
+    border-radius: 30px;
+    padding: 10px 25px;
+}
+
+.navigation span:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.projetos {
+    margin-top: 50px;
+    margin-bottom: 20%;
+    display: flex; 
+    justify-content: center;/* Usa Flexbox para organizar as colunas */
+    gap: 75px;/* Espaçamento entre as colunas */
+}
+
+.coluna {
+    display: flex; /* Organiza os links em coluna */
+    flex-direction: column; /* Direção da coluna */
+}
+
+.coluna a {
+    position: relative;
+    margin-bottom: 20px; /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+        padding: 50px 115px; /* Espaçamento dentro do span */
+    background-color: rgb(19, 20, 20); /* Cor de fundo para o span */
+    border-radius: 5px;/* Borda para o span */
+}
+
+.coluna a:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+.coluna a span {
+    color: #e3e3e3;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    display: inline-block; /* Faz o span se comportar como um bloco */
+}
+
+.container {
+    display: flex; /* Usa Flexbox para criar as colunas */
+    justify-content: center; /* Espaçamento entre as colunas */
+    gap: 10px;
+    color: antiquewhite;
+}
+
+.foto-moldura, .texto-aleatorio{
+    padding: 10px; /* Espaçamento interno para cada coluna */
+}
+
+.foto-moldura {
+    border: 10px solid #323131; /* Cria uma moldura para a foto */
+}
+
+.foto-moldura img {
+    width: 255px; /* Faz a imagem ocupar todo o espaço disponível na moldura */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.qrcode{
+    display: flex;
+    justify-content: center;
+}
+
+.qrcode img{
+    justify-content: center;
+    width: 255px;
+    border: 10px solid #323131;
+}
+
+.dadospix{
+    display: flex;
+    justify-content: center;
+}
+
+.dadospix p{
+    text-align: center;
+    color: antiquewhite;
+}
