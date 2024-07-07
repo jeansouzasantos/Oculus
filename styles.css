@@ -124,3 +124,69 @@ body {
     text-align: center;
     color: antiquewhite;
 }
+
+/* Estilos para dispositivos móveis (largura máxima de 600px) */
+@media screen and (max-width: 600px) {
+    /* Estilos para o cabeçalho */
+    .logo img {
+        width: 48px; /* Reduz a largura da imagem do logo */
+    }
+
+    .logo_titulo {
+        font-size: 18px; /* Reduz o tamanho da fonte do título */
+    }
+
+    /* Estilos para a navegação */
+    .navigation nav ul {
+        margin: 5px;
+        gap: 1%; /* Espaçamento entre os itens */
+    }
+
+    .navigation a {
+        padding: 1px; /* Reduz o espaçamento dos links */
+    }
+
+    /* Estilos para os projetos */
+    .projetos {
+        display: flex;
+        align-items: center;
+        flex-direction: column; /* Organiza os projetos em coluna */
+        gap: 0px; /* Espaçamento entre os projetos */
+    }
+
+    .coluna a {
+        width: 120px;
+        height: 40px;
+        padding: 20px; /* Reduz o espaçamento dentro dos spans */
+    }
+
+    .container{
+        text-align: center;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto-moldura{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: none;
+        padding: 0;
+    }
+
+    .foto-moldura img {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 10px solid #323131;
+        width: 70%;
+        padding: 5px; /* Faz a imagem ocupar toda a largura disponível */
+    }
+
+    .qrcode img {
+        width: 50%; /* Faz o QR Code ocupar toda a largura disponível */
+    }
+}
