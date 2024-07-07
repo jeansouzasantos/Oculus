@@ -92,6 +92,7 @@ body {
 }
 
 .foto-moldura, .texto-aleatorio{
+    text-align: center;
     padding: 10px; /* Espaçamento interno para cada coluna */
 }
 
