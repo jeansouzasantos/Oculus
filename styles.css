@@ -126,6 +126,18 @@ body {
     color: antiquewhite;
 }
 
+.ads{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.adsbygoogle{
+    background-color: #323131;
+    width: 10px;
+    padding: 100px;
+}
+
 /* Estilos para dispositivos móveis (largura máxima de 600px) */
 @media screen and (max-width: 600px) {
     /* Estilos para o cabeçalho */
